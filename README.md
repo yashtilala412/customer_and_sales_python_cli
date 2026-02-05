@@ -49,3 +49,9 @@ sales-cli/
 ├── main.py                 # Application entry point
 ├── requirements.txt
 └── README.md
+```
+## ⚙️ Installation & Usage
+
+```bash
+git clone https://github.com/yashtilala412/customer_and_sales_python_cli
+pip install -r requirements.txt
