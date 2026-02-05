@@ -32,9 +32,14 @@ The project uses a modular structure with `argparse` to provide clean, scalable,
 sales-cli/
 │
 ├── utils/
-│   └── cli_parser.py   # CLI argument and command definitions
-    └── data_loader.py└── cli_parser.py 
-    └── .py 
+│   └── cli_parser.py        # CLI argument and command definitions
+    └── data_loader.py
+    └── helper.py
+│
+├── services/
+│   ├── customer_service.py # Customer-related logic
+│   ├── product_service.py  # Product-related logic
+│   └── sales_service.py    # Sales-related logic
 │
 ├── data/
 │   ├── customers.csv
